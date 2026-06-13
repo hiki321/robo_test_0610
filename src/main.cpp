@@ -91,13 +91,6 @@ void print_help() {
 
 int main() {
 
-    std::cout << "Robot Control (pure C++)\n";
-    std::cout << "  W/S : forward / backward\n"
-              << "  A/D : turn left / right\n"
-              << "  Q/E : arc left / right\n"
-              << "  Space: stop\n"
-              << "  X   : exit\n";
-
     std::signal(SIGINT, handle_signal);
 
     auto robot = std::make_shared<robot_control::DifferentialDriveSim>();
