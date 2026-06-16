@@ -96,6 +96,12 @@ namespace
                   << "  X   : exit\n";
     }
 
+    void test_git()
+    {
+
+        std::cout << "hello git\n";
+    }
+
 } // namespace
 
 int main()
