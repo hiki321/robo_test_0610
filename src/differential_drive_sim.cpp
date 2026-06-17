@@ -2,6 +2,7 @@
 
 #include <algorithm>
 #include <cmath>
+#include <iostream>
 
 namespace robot_control {
 
@@ -10,6 +11,11 @@ namespace {
 double clamp(double value, double min_value, double max_value) {
     return std::max(min_value, std::min(value, max_value));
 }
+
+void test_hiki() {
+    std::cout << "hello hiki\n";
+}
+
 
 }  // namespace
 
