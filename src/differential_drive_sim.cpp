@@ -16,6 +16,9 @@ void test_hiki() {
     std::cout << "hello hiki\n";
 }
 
+void test_0618() {
+    std::cout << "hello 618\n";
+}
 
 }  // namespace
 
